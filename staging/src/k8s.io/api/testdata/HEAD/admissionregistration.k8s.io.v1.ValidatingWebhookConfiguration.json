@@ -1,0 +1,109 @@
+{
+  "kind": "ValidatingWebhookConfiguration",
+  "apiVersion": "admissionregistration.k8s.io/v1",
+  "metadata": {
+    "name": "2",
+    "generateName": "3",
+    "tenant": "4",
+    "namespace": "5",
+    "selfLink": "6",
+    "uid": "7",
+    "hashKey": 3414760188119455639,
+    "resourceVersion": "11042405498087606203",
+    "generation": 5828590068104375683,
+    "creationTimestamp": null,
+    "deletionGracePeriodSeconds": 6797158496028726353,
+    "labels": {
+      "8": "9"
+    },
+    "annotations": {
+      "10": "11"
+    },
+    "ownerReferences": [
+      {
+        "apiVersion": "12",
+        "kind": "13",
+        "name": "14",
+        "uid": "z廔ȇ{sŊƏ",
+        "hashKey": -3769286901598778062,
+        "controller": false,
+        "blockOwnerDeletion": true
+      }
+    ],
+    "finalizers": [
+      "15"
+    ],
+    "clusterName": "16",
+    "managedFields": [
+      {
+        "manager": "17",
+        "operation": "鐊唊飙Ş-U圴÷a/ɔ}摁(湗Ć]",
+        "apiVersion": "18"
+      }
+    ]
+  },
+  "webhooks": [
+    {
+      "name": "19",
+      "clientConfig": {
+        "url": "20",
+        "service": {
+          "namespace": "21",
+          "name": "22",
+          "path": "23",
+          "port": -1971381490
+        },
+        "caBundle": "IQ=="
+      },
+      "rules": [
+        {
+          "operations": [
+            "8衍`Ĩɘ.蘯"
+          ],
+          "apiGroups": [
+            "24"
+          ],
+          "apiVersions": [
+            "25"
+          ],
+          "resources": [
+            "26"
+          ],
+          "scope": "昍řČ扷5ƗǸƢ6/"
+        }
+      ],
+      "failurePolicy": "VŚ(ĿȊ甞谐颋",
+      "matchPolicy": "SǡƏ",
+      "namespaceSelector": {
+        "matchLabels": {
+          "2.1.L.l-Y._.-44..d.__Gg8-2_kS91.e5K-_e63_-_3-n-_-__3u-.J": "G_.7U-Uo_4_-D7r__.am64"
+        },
+        "matchExpressions": [
+          {
+            "key": "2.-__E_Sv__26KX_R_.-.Nth._--S_4DA_-5_-4lQ42M--n1-5",
+            "operator": "In",
+            "values": [
+              "Ou1.m_.5AW-_S-.3g.7_2fNc5-_.-RX8"
+            ]
+          }
+        ]
+      },
+      "objectSelector": {
+        "matchLabels": {
+          "7p_w.e6._.pj5t_k-_v.-6b6.N_-u.---.8-L": "k-U.v.4"
+        },
+        "matchExpressions": [
+          {
+            "key": "35--5ht-a-29--0qso79yg--79-e-a74bc-v--0jjy45-17-05-3z-4838/3-H2._67yg-Ln-__.-__2--z.t2w",
+            "operator": "Exists"
+          }
+        ]
+      },
+      "sideEffects": "Ɵ)Ù",
+      "timeoutSeconds": 1132918207,
+      "admissionReviewVersions": [
+        "39"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "kind": "PersistentVolumeClaim",
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "2",
+    "generateName": "3",
+    "tenant": "4",
+    "namespace": "5",
+    "selfLink": "6",
+    "uid": "7",
+    "hashKey": 3414760188119455639,
+    "resourceVersion": "11042405498087606203",
+    "generation": 5828590068104375683,
+    "creationTimestamp": null,
+    "deletionGracePeriodSeconds": 6797158496028726353,
+    "labels": {
+      "8": "9"
+    },
+    "annotations": {
+      "10": "11"
+    },
+    "ownerReferences": [
+      {
+        "apiVersion": "12",
+        "kind": "13",
+        "name": "14",
+        "uid": "z廔ȇ{sŊƏ",
+        "hashKey": -3769286901598778062,
+        "controller": false,
+        "blockOwnerDeletion": true
+      }
+    ],
+    "finalizers": [
+      "15"
+    ],
+    "clusterName": "16",
+    "managedFields": [
+      {
+        "manager": "17",
+        "operation": "鐊唊飙Ş-U圴÷a/ɔ}摁(湗Ć]",
+        "apiVersion": "18"
+      }
+    ]
+  },
+  "spec": {
+    "accessModes": [
+      "@Hr鯹)晿"
+    ],
+    "selector": {
+      "matchLabels": {
+        "h0-6pJ": "Hn7y-74.-0MUORQQ.N2.1L"
+      },
+      "matchExpressions": [
+        {
+          "key": "PGg8-2_kS91.e5K-_e63_-_3n",
+          "operator": "DoesNotExist"
+        }
+      ]
+    },
+    "resources": {
+      "limits": {
+        "Ď儇击3ƆìQ喞艋涽託仭w-檮Ǣ": "465"
+      },
+      "requests": {
+        "Ł%ŨȈ\u003eŅ£趕ã/鈱$-议}ȧ外ĺ稥": "713"
+      }
+    },
+    "volumeName": "25",
+    "storageClassName": "26",
+    "volumeMode": "娲瘹ɭȊɚɎ(dɅ囥糷磩窮秳ķ蟒苾h^",
+    "dataSource": {
+      "apiGroup": "27",
+      "kind": "28",
+      "name": "29"
+    }
+  },
+  "status": {
+    "phase": "燴壩卄蓨MĮ?",
+    "accessModes": [
+      "ĭÐl恕ɍȇ廄裭4懙"
+    ],
+    "capacity": {
+      "嵒ƫS捕ɷD¡轫n": "583"
+    },
+    "conditions": [
+      {
+        "type": "Ü郀",
+        "status": "ƣKʘńw:5塋",
+        "lastProbeTime": "2588-10-04T08:20:38Z",
+        "lastTransitionTime": "2095-10-31T02:52:44Z",
+        "reason": "30",
+        "message": "31"
+      }
+    ]
+  }
+}

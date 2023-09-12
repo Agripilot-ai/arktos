@@ -1,0 +1,84 @@
+{
+  "kind": "Event",
+  "apiVersion": "events.k8s.io/v1beta1",
+  "metadata": {
+    "name": "2",
+    "generateName": "3",
+    "tenant": "4",
+    "namespace": "5",
+    "selfLink": "6",
+    "uid": "7",
+    "hashKey": 3414760188119455639,
+    "resourceVersion": "11042405498087606203",
+    "generation": 5828590068104375683,
+    "creationTimestamp": null,
+    "deletionGracePeriodSeconds": 6797158496028726353,
+    "labels": {
+      "8": "9"
+    },
+    "annotations": {
+      "10": "11"
+    },
+    "ownerReferences": [
+      {
+        "apiVersion": "12",
+        "kind": "13",
+        "name": "14",
+        "uid": "z廔ȇ{sŊƏ",
+        "hashKey": -3769286901598778062,
+        "controller": false,
+        "blockOwnerDeletion": true
+      }
+    ],
+    "finalizers": [
+      "15"
+    ],
+    "clusterName": "16",
+    "managedFields": [
+      {
+        "manager": "17",
+        "operation": "鐊唊飙Ş-U圴÷a/ɔ}摁(湗Ć]",
+        "apiVersion": "18"
+      }
+    ]
+  },
+  "eventTime": "2482-03-20T23:11:25.602224Z",
+  "series": {
+    "count": -1971381490,
+    "lastObservedTime": "2429-02-18T17:57:56.343118Z",
+    "state": "鯹)晿\u003c"
+  },
+  "reportingController": "19",
+  "reportingInstance": "20",
+  "action": "21",
+  "reason": "22",
+  "regarding": {
+    "kind": "23",
+    "namespace": "24",
+    "name": "25",
+    "uid": "Ĩɘ.蘯6ċV夸eɑeʤ脽ěĂ",
+    "apiVersion": "26",
+    "resourceVersion": "27",
+    "fieldPath": "28",
+    "tenant": "29"
+  },
+  "related": {
+    "kind": "30",
+    "namespace": "31",
+    "name": "32",
+    "uid": "蓏Ŋ",
+    "apiVersion": "33",
+    "resourceVersion": "34",
+    "fieldPath": "35",
+    "tenant": "36"
+  },
+  "note": "37",
+  "type": "38",
+  "deprecatedSource": {
+    "component": "39",
+    "host": "40"
+  },
+  "deprecatedFirstTimestamp": "2964-12-12T12:04:40Z",
+  "deprecatedLastTimestamp": "2452-08-27T22:01:15Z",
+  "deprecatedCount": 1804227960
+}

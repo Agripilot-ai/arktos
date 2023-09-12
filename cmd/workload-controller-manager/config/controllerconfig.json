@@ -1,0 +1,19 @@
+{
+    "reportHealthIntervalInSecond": 10,
+    "resyncPeriod": "12h0m0s",
+    "qps": 20,
+    "controllers": [
+        {
+            "type":    "node",
+            "workers": 5
+        },
+        {
+            "type":    "replicaset",
+            "workers": 10
+        },
+        {
+            "type":     "deployment",
+            "workers":  5
+        }
+    ]
+}

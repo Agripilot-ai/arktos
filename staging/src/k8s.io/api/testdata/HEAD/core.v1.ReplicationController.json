@@ -1,0 +1,1203 @@
+{
+  "kind": "ReplicationController",
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "2",
+    "generateName": "3",
+    "tenant": "4",
+    "namespace": "5",
+    "selfLink": "6",
+    "uid": "7",
+    "hashKey": 3414760188119455639,
+    "resourceVersion": "11042405498087606203",
+    "generation": 5828590068104375683,
+    "creationTimestamp": null,
+    "deletionGracePeriodSeconds": 6797158496028726353,
+    "labels": {
+      "8": "9"
+    },
+    "annotations": {
+      "10": "11"
+    },
+    "ownerReferences": [
+      {
+        "apiVersion": "12",
+        "kind": "13",
+        "name": "14",
+        "uid": "z廔ȇ{sŊƏ",
+        "hashKey": -3769286901598778062,
+        "controller": false,
+        "blockOwnerDeletion": true
+      }
+    ],
+    "finalizers": [
+      "15"
+    ],
+    "clusterName": "16",
+    "managedFields": [
+      {
+        "manager": "17",
+        "operation": "鐊唊飙Ş-U圴÷a/ɔ}摁(湗Ć]",
+        "apiVersion": "18"
+      }
+    ]
+  },
+  "spec": {
+    "replicas": 896585016,
+    "minReadySeconds": -1971381490,
+    "selector": {
+      "19": "20"
+    },
+    "template": {
+      "metadata": {
+        "name": "21",
+        "generateName": "22",
+        "tenant": "23",
+        "namespace": "24",
+        "selfLink": "25",
+        "uid": "獚敆ȎțêɘĲ斬³;Ơ歿:狞夌碕ʂɭ",
+        "hashKey": 6537464086297083777,
+        "resourceVersion": "15799792187046586431",
+        "generation": -2037446820128007165,
+        "creationTimestamp": null,
+        "deletionGracePeriodSeconds": 7934424550785053401,
+        "labels": {
+          "27": "28"
+        },
+        "annotations": {
+          "29": "30"
+        },
+        "ownerReferences": [
+          {
+            "apiVersion": "31",
+            "kind": "32",
+            "name": "33",
+            "uid": "t昍řČ扷",
+            "hashKey": 8477299027671536598,
+            "controller": false,
+            "blockOwnerDeletion": true
+          }
+        ],
+        "finalizers": [
+          "34"
+        ],
+        "clusterName": "35",
+        "managedFields": [
+          {
+            "manager": "36",
+            "operation": "6/ʕVŚ(ĿȊ甞谐颋ǅSǡƏS$+",
+            "apiVersion": "37"
+          }
+        ]
+      },
+      "spec": {
+        "vpc": "38",
+        "nics": [
+          {
+            "name": "39",
+            "subnetName": "40",
+            "portId": "41",
+            "ipAddress": "42",
+            "tag": "43"
+          }
+        ],
+        "volumes": [
+          {
+            "name": "44",
+            "hostPath": {
+              "path": "45",
+              "type": "ņɖ橙9ȫŚʒUɦOŖ樅尷"
+            },
+            "emptyDir": {
+              "medium": "d賑'üA謥ǣ偐圠=",
+              "sizeLimit": "427"
+            },
+            "gcePersistentDisk": {
+              "pdName": "46",
+              "fsType": "47",
+              "partition": 1488277679,
+              "readOnly": true
+            },
+            "awsElasticBlockStore": {
+              "volumeID": "48",
+              "fsType": "49",
+              "partition": -1051545416
+            },
+            "gitRepo": {
+              "repository": "50",
+              "revision": "51",
+              "directory": "52"
+            },
+            "secret": {
+              "secretName": "53",
+              "items": [
+                {
+                  "key": "54",
+                  "path": "55",
+                  "mode": 712204633
+                }
+              ],
+              "defaultMode": -816398166,
+              "optional": true
+            },
+            "nfs": {
+              "server": "56",
+              "path": "57",
+              "readOnly": true
+            },
+            "iscsi": {
+              "targetPortal": "58",
+              "iqn": "59",
+              "lun": 2107119206,
+              "iscsiInterface": "60",
+              "fsType": "61",
+              "portals": [
+                "62"
+              ],
+              "chapAuthDiscovery": true,
+              "chapAuthSession": true,
+              "secretRef": {
+                "name": "63"
+              },
+              "initiatorName": "64"
+            },
+            "glusterfs": {
+              "endpoints": "65",
+              "path": "66",
+              "readOnly": true
+            },
+            "persistentVolumeClaim": {
+              "claimName": "67"
+            },
+            "rbd": {
+              "monitors": [
+                "68"
+              ],
+              "image": "69",
+              "fsType": "70",
+              "pool": "71",
+              "user": "72",
+              "keyring": "73",
+              "secretRef": {
+                "name": "74"
+              }
+            },
+            "flexVolume": {
+              "driver": "75",
+              "fsType": "76",
+              "secretRef": {
+                "name": "77"
+              },
+              "readOnly": true,
+              "options": {
+                "78": "79"
+              }
+            },
+            "cinder": {
+              "volumeID": "80",
+              "fsType": "81",
+              "secretRef": {
+                "name": "82"
+              }
+            },
+            "cephfs": {
+              "monitors": [
+                "83"
+              ],
+              "path": "84",
+              "user": "85",
+              "secretFile": "86",
+              "secretRef": {
+                "name": "87"
+              }
+            },
+            "flocker": {
+              "datasetName": "88",
+              "datasetUUID": "89"
+            },
+            "downwardAPI": {
+              "items": [
+                {
+                  "path": "90",
+                  "fieldRef": {
+                    "apiVersion": "91",
+                    "fieldPath": "92"
+                  },
+                  "resourceFieldRef": {
+                    "containerName": "93",
+                    "resource": "94",
+                    "divisor": "534"
+                  },
+                  "mode": -471134108
+                }
+              ],
+              "defaultMode": -1880297089
+            },
+            "fc": {
+              "targetWWNs": [
+                "95"
+              ],
+              "lun": 1794524651,
+              "fsType": "96",
+              "readOnly": true,
+              "wwids": [
+                "97"
+              ]
+            },
+            "azureFile": {
+              "secretName": "98",
+              "shareName": "99",
+              "readOnly": true
+            },
+            "configMap": {
+              "name": "100",
+              "items": [
+                {
+                  "key": "101",
+                  "path": "102",
+                  "mode": 1606991994
+                }
+              ],
+              "defaultMode": -1077199580,
+              "optional": true
+            },
+            "vsphereVolume": {
+              "volumePath": "103",
+              "fsType": "104",
+              "storagePolicyName": "105",
+              "storagePolicyID": "106"
+            },
+            "quobyte": {
+              "registry": "107",
+              "volume": "108",
+              "readOnly": true,
+              "user": "109",
+              "group": "110",
+              "tenant": "111"
+            },
+            "azureDisk": {
+              "diskName": "112",
+              "diskURI": "113",
+              "cachingMode": "稥氹Ç|¶鎚",
+              "fsType": "114",
+              "readOnly": true,
+              "kind": "Ɠ(嘒ėf倐ȓ圬剴扲ȿQ"
+            },
+            "photonPersistentDisk": {
+              "pdID": "115",
+              "fsType": "116"
+            },
+            "projected": {
+              "sources": [
+                {
+                  "secret": {
+                    "name": "117",
+                    "items": [
+                      {
+                        "key": "118",
+                        "path": "119",
+                        "mode": -511231002
+                      }
+                    ],
+                    "optional": false
+                  },
+                  "downwardAPI": {
+                    "items": [
+                      {
+                        "path": "120",
+                        "fieldRef": {
+                          "apiVersion": "121",
+                          "fieldPath": "122"
+                        },
+                        "resourceFieldRef": {
+                          "containerName": "123",
+                          "resource": "124",
+                          "divisor": "597"
+                        },
+                        "mode": 71511978
+                      }
+                    ]
+                  },
+                  "configMap": {
+                    "name": "125",
+                    "items": [
+                      {
+                        "key": "126",
+                        "path": "127",
+                        "mode": -737070070
+                      }
+                    ],
+                    "optional": true
+                  },
+                  "serviceAccountToken": {
+                    "audience": "128",
+                    "expirationSeconds": 7842338581441768209,
+                    "path": "129"
+                  }
+                }
+              ],
+              "defaultMode": -1183380812
+            },
+            "portworxVolume": {
+              "volumeID": "130",
+              "fsType": "131",
+              "readOnly": true
+            },
+            "scaleIO": {
+              "gateway": "132",
+              "system": "133",
+              "secretRef": {
+                "name": "134"
+              },
+              "protectionDomain": "135",
+              "storagePool": "136",
+              "storageMode": "137",
+              "volumeName": "138",
+              "fsType": "139"
+            },
+            "storageos": {
+              "volumeName": "140",
+              "volumeNamespace": "141",
+              "fsType": "142",
+              "readOnly": true,
+              "secretRef": {
+                "name": "143"
+              }
+            },
+            "csi": {
+              "driver": "144",
+              "readOnly": true,
+              "fsType": "145",
+              "volumeAttributes": {
+                "146": "147"
+              },
+              "nodePublishSecretRef": {
+                "name": "148"
+              }
+            }
+          }
+        ],
+        "initContainers": [
+          {
+            "name": "149",
+            "image": "150",
+            "command": [
+              "151"
+            ],
+            "args": [
+              "152"
+            ],
+            "workingDir": "153",
+            "ports": [
+              {
+                "name": "154",
+                "hostPort": 1822289444,
+                "containerPort": 1149075888,
+                "protocol": "¡轫n",
+                "hostIP": "155"
+              }
+            ],
+            "envFrom": [
+              {
+                "prefix": "156",
+                "configMapRef": {
+                  "name": "157",
+                  "optional": false
+                },
+                "secretRef": {
+                  "name": "158",
+                  "optional": false
+                }
+              }
+            ],
+            "env": [
+              {
+                "name": "159",
+                "value": "160",
+                "valueFrom": {
+                  "fieldRef": {
+                    "apiVersion": "161",
+                    "fieldPath": "162"
+                  },
+                  "resourceFieldRef": {
+                    "containerName": "163",
+                    "resource": "164",
+                    "divisor": "471"
+                  },
+                  "configMapKeyRef": {
+                    "name": "165",
+                    "key": "166",
+                    "optional": false
+                  },
+                  "secretKeyRef": {
+                    "name": "167",
+                    "key": "168",
+                    "optional": true
+                  }
+                }
+              }
+            ],
+            "resources": {
+              "limits": {
+                "5塋訩塶": "209"
+              },
+              "requests": {
+                "殁Ka縳讋ɮ衺勽": "351"
+              }
+            },
+            "resourcesAllocated": {
+              "P_痸": "678"
+            },
+            "resizePolicy": [
+              {
+                "resourceName": "衲\u003c¿燥",
+                "policy": "硰{舁吉蓨O澘銈e"
+              }
+            ],
+            "volumeMounts": [
+              {
+                "name": "169",
+                "readOnly": true,
+                "mountPath": "170",
+                "subPath": "171",
+                "mountPropagation": "Ĭ艥\u003c檔Ň'Ğİ*洣炽A@ʊʓ",
+                "subPathExpr": "172"
+              }
+            ],
+            "volumeDevices": [
+              {
+                "name": "173",
+                "devicePath": "174"
+              }
+            ],
+            "livenessProbe": {
+              "exec": {
+                "command": [
+                  "175"
+                ]
+              },
+              "httpGet": {
+                "path": "176",
+                "port": -2142802037,
+                "host": "177",
+                "scheme": "ʋ",
+                "httpHeaders": [
+                  {
+                    "name": "178",
+                    "value": "179"
+                  }
+                ]
+              },
+              "tcpSocket": {
+                "port": "180",
+                "host": "181"
+              },
+              "initialDelaySeconds": -1540645096,
+              "timeoutSeconds": 229600975,
+              "periodSeconds": -35598353,
+              "successThreshold": -1697933829,
+              "failureThreshold": -1438986781
+            },
+            "readinessProbe": {
+              "exec": {
+                "command": [
+                  "182"
+                ]
+              },
+              "httpGet": {
+                "path": "183",
+                "port": -1619438973,
+                "host": "184",
+                "scheme": "ȗ礼2ħ籦ö嗏",
+                "httpHeaders": [
+                  {
+                    "name": "185",
+                    "value": "186"
+                  }
+                ]
+              },
+              "tcpSocket": {
+                "port": 468716734,
+                "host": "187"
+              },
+              "initialDelaySeconds": 1274480280,
+              "timeoutSeconds": 1914313083,
+              "periodSeconds": 620421257,
+              "successThreshold": 1899367104,
+              "failureThreshold": -27219570
+            },
+            "lifecycle": {
+              "postStart": {
+                "exec": {
+                  "command": [
+                    "188"
+                  ]
+                },
+                "httpGet": {
+                  "path": "189",
+                  "port": "190",
+                  "host": "191",
+                  "scheme": "湙騘",
+                  "httpHeaders": [
+                    {
+                      "name": "192",
+                      "value": "193"
+                    }
+                  ]
+                },
+                "tcpSocket": {
+                  "port": -1291315853,
+                  "host": "194"
+                }
+              },
+              "preStop": {
+                "exec": {
+                  "command": [
+                    "195"
+                  ]
+                },
+                "httpGet": {
+                  "path": "196",
+                  "port": -156457987,
+                  "host": "197",
+                  "scheme": "焁yǠ/淹\\韲翁\u0026ʢ",
+                  "httpHeaders": [
+                    {
+                      "name": "198",
+                      "value": "199"
+                    }
+                  ]
+                },
+                "tcpSocket": {
+                  "port": -1617414299,
+                  "host": "200"
+                }
+              }
+            },
+            "terminationMessagePath": "201",
+            "terminationMessagePolicy": "\\%枅:=ǛƓɥ踓Ǻǧ湬淊kŪ",
+            "imagePullPolicy": "聡A3fƻfʣ繡楙¯ĦE勗E濞偘1ɩÅ",
+            "securityContext": {
+              "capabilities": {
+                "add": [
+                  "轺@)蓳嗘TʡȂŏ{sǡƟ狩鴈o_鹈ɹ"
+                ],
+                "drop": [
+                  "É/p"
+                ]
+              },
+              "privileged": true,
+              "seLinuxOptions": {
+                "user": "202",
+                "role": "203",
+                "type": "204",
+                "level": "205"
+              },
+              "windowsOptions": {
+                "gmsaCredentialSpecName": "206",
+                "gmsaCredentialSpec": "207"
+              },
+              "runAsUser": -5663998255416893194,
+              "runAsGroup": -7635256509062757120,
+              "runAsNonRoot": false,
+              "readOnlyRootFilesystem": false,
+              "allowPrivilegeEscalation": true,
+              "procMount": "Ȥ^}穠C]躢|)黰e"
+            },
+            "stdin": true,
+            "stdinOnce": true,
+            "tty": true
+          }
+        ],
+        "containers": [
+          {
+            "name": "208",
+            "image": "209",
+            "command": [
+              "210"
+            ],
+            "args": [
+              "211"
+            ],
+            "workingDir": "212",
+            "ports": [
+              {
+                "name": "213",
+                "hostPort": -1351421716,
+                "containerPort": 798141673,
+                "protocol": "ɰVzÏ抴",
+                "hostIP": "214"
+              }
+            ],
+            "envFrom": [
+              {
+                "prefix": "215",
+                "configMapRef": {
+                  "name": "216",
+                  "optional": false
+                },
+                "secretRef": {
+                  "name": "217",
+                  "optional": false
+                }
+              }
+            ],
+            "env": [
+              {
+                "name": "218",
+                "value": "219",
+                "valueFrom": {
+                  "fieldRef": {
+                    "apiVersion": "220",
+                    "fieldPath": "221"
+                  },
+                  "resourceFieldRef": {
+                    "containerName": "222",
+                    "resource": "223",
+                    "divisor": "931"
+                  },
+                  "configMapKeyRef": {
+                    "name": "224",
+                    "key": "225",
+                    "optional": true
+                  },
+                  "secretKeyRef": {
+                    "name": "226",
+                    "key": "227",
+                    "optional": true
+                  }
+                }
+              }
+            ],
+            "resources": {
+              "limits": {
+                "o\u0026蕭k ź贩j瀉": "621"
+              },
+              "requests": {
+                "徙ɶɊł/擇ɦĽ胚": "426"
+              }
+            },
+            "resourcesAllocated": {
+              "8ǉ黳鈫ʕ禒Ƙ": "794"
+            },
+            "resizePolicy": [
+              {
+                "resourceName": "媹Hǝ呮}臷Ľð»ųKĵ\u00264ʑ%",
+                "policy": "ȦY籎"
+              }
+            ],
+            "volumeMounts": [
+              {
+                "name": "228",
+                "readOnly": true,
+                "mountPath": "229",
+                "subPath": "230",
+                "mountPropagation": "Ŵ",
+                "subPathExpr": "231"
+              }
+            ],
+            "volumeDevices": [
+              {
+                "name": "232",
+                "devicePath": "233"
+              }
+            ],
+            "livenessProbe": {
+              "exec": {
+                "command": [
+                  "234"
+                ]
+              },
+              "httpGet": {
+                "path": "235",
+                "port": 66879916,
+                "host": "236",
+                "scheme": "ù墴1Rƥ贫d飼$俊跾|@?鷅bȻN+",
+                "httpHeaders": [
+                  {
+                    "name": "237",
+                    "value": "238"
+                  }
+                ]
+              },
+              "tcpSocket": {
+                "port": 692541847,
+                "host": "239"
+              },
+              "initialDelaySeconds": 996680040,
+              "timeoutSeconds": 142244414,
+              "periodSeconds": 520176612,
+              "successThreshold": 1405780256,
+              "failureThreshold": -575512248
+            },
+            "readinessProbe": {
+              "exec": {
+                "command": [
+                  "240"
+                ]
+              },
+              "httpGet": {
+                "path": "241",
+                "port": 1569606284,
+                "host": "242",
+                "scheme": "ƞ究:hoĂɋ瀐\u003cɉ",
+                "httpHeaders": [
+                  {
+                    "name": "243",
+                    "value": "244"
+                  }
+                ]
+              },
+              "tcpSocket": {
+                "port": -1334904807,
+                "host": "245"
+              },
+              "initialDelaySeconds": 1824183165,
+              "timeoutSeconds": 609274415,
+              "periodSeconds": 581816190,
+              "successThreshold": -204658565,
+              "failureThreshold": -498077886
+            },
+            "lifecycle": {
+              "postStart": {
+                "exec": {
+                  "command": [
+                    "246"
+                  ]
+                },
+                "httpGet": {
+                  "path": "247",
+                  "port": "248",
+                  "host": "249",
+                  "scheme": "Ǯń",
+                  "httpHeaders": [
+                    {
+                      "name": "250",
+                      "value": "251"
+                    }
+                  ]
+                },
+                "tcpSocket": {
+                  "port": "252",
+                  "host": "253"
+                }
+              },
+              "preStop": {
+                "exec": {
+                  "command": [
+                    "254"
+                  ]
+                },
+                "httpGet": {
+                  "path": "255",
+                  "port": "256",
+                  "host": "257",
+                  "scheme": "5w垁鷌辪虽U珝Żwʮ馜üNșƶ",
+                  "httpHeaders": [
+                    {
+                      "name": "258",
+                      "value": "259"
+                    }
+                  ]
+                },
+                "tcpSocket": {
+                  "port": "260",
+                  "host": "261"
+                }
+              }
+            },
+            "terminationMessagePath": "262",
+            "terminationMessagePolicy": "ĉş蝿ɖȃ賲鐅臬",
+            "imagePullPolicy": "|dk_瀹鞎sn芞QÄȻȊ+?",
+            "securityContext": {
+              "capabilities": {
+                "add": [
+                  "Y栲茇"
+                ],
+                "drop": [
+                  "吲蚛隖\u003cǶĬ4y£軶ǃ*ʙ嫙\u0026蒒5"
+                ]
+              },
+              "privileged": false,
+              "seLinuxOptions": {
+                "user": "263",
+                "role": "264",
+                "type": "265",
+                "level": "266"
+              },
+              "windowsOptions": {
+                "gmsaCredentialSpecName": "267",
+                "gmsaCredentialSpec": "268"
+              },
+              "runAsUser": 1201768676685780641,
+              "runAsGroup": -5016044672285257696,
+              "runAsNonRoot": false,
+              "readOnlyRootFilesystem": true,
+              "allowPrivilegeEscalation": false,
+              "procMount": "ȹ嫰ƹǔw÷nI粛E煹ǐƲE"
+            },
+            "stdinOnce": true,
+            "tty": true
+          }
+        ],
+        "virtualMachine": {
+          "name": "269",
+          "image": "270",
+          "resources": {
+            "limits": {
+              "Źʣy豎@ɀ羭,铻O": "993"
+            },
+            "requests": {
+              "¬麄p呝": "714"
+            }
+          },
+          "resourcesAllocated": {
+            "Ƿ裚瓶釆Ɗ+j忊": "486"
+          },
+          "resizePolicy": [
+            {
+              "resourceName": "嫭塓烀罁胾",
+              "policy": "籘Àǒɿʒ刽ŉ"
+            }
+          ],
+          "volumeMounts": [
+            {
+              "name": "271",
+              "mountPath": "272",
+              "subPath": "273",
+              "mountPropagation": "ſ盷",
+              "subPathExpr": "274"
+            }
+          ],
+          "imagePullPolicy": "w[Řż丩ŽoǠ",
+          "keyPairName": "275",
+          "publicKey": "276",
+          "userData": "yg==",
+          "trustedImageCertificate": [
+            "277"
+          ],
+          "shutdownBehavior": "278",
+          "bootVolume": "279",
+          "powerSpec": "1Ůđ眊ľǎɳ,ǿ飏騀",
+          "volumeDevices": [
+            {
+              "name": "280",
+              "devicePath": "281"
+            }
+          ],
+          "cloudInitUserDataScript": "282"
+        },
+        "workloadInfo": [
+          {
+            "name": "283",
+            "image": "284",
+            "resources": {
+              "limits": {
+                "fǣ萭旿@": "833"
+              },
+              "requests": {
+                "Ęİ榌U髷裎$M": "739"
+              }
+            },
+            "resourcesAllocated": {
+              "熷谟þ蛯ɰ荶ǉʁ揆ɘȌ脾嚏吐ĠLƐȤ": "322"
+            },
+            "resizePolicy": [
+              {
+                "resourceName": "zvt莭琽§",
+                "policy": "Ȣ幟ļ腻Ŭ"
+              }
+            ],
+            "volumeMounts": [
+              {
+                "name": "285",
+                "readOnly": true,
+                "mountPath": "286",
+                "subPath": "287",
+                "mountPropagation": "0矀Kʝ瘴I\\p[ħsĨɆâĺɗŹ倗S",
+                "subPathExpr": "288"
+              }
+            ],
+            "imagePullPolicy": "讼ɓȌʟni酛3ƁÀ*f\u003c鴒翁杙Ŧ"
+          }
+        ],
+        "restartPolicy": "ls3!Zɾģ毋Ó",
+        "terminationGracePeriodSeconds": -7496907587060316649,
+        "activeDeadlineSeconds": -3330794418591695456,
+        "dnsPolicy": "矡ȶ网棊ʢ=wǕɳɷ9Ì崟¿",
+        "nodeSelector": {
+          "289": "290"
+        },
+        "serviceAccountName": "291",
+        "serviceAccount": "292",
+        "automountServiceAccountToken": true,
+        "nodeName": "293",
+        "hostPID": true,
+        "hostIPC": true,
+        "shareProcessNamespace": false,
+        "securityContext": {
+          "seLinuxOptions": {
+            "user": "294",
+            "role": "295",
+            "type": "296",
+            "level": "297"
+          },
+          "windowsOptions": {
+            "gmsaCredentialSpecName": "298",
+            "gmsaCredentialSpec": "299"
+          },
+          "runAsUser": -5381329890395615297,
+          "runAsGroup": 4148670765068635051,
+          "runAsNonRoot": true,
+          "supplementalGroups": [
+            7960278328958310175
+          ],
+          "fsGroup": -5345615652360879044,
+          "sysctls": [
+            {
+              "name": "300",
+              "value": "301"
+            }
+          ]
+        },
+        "imagePullSecrets": [
+          {
+            "name": "302"
+          }
+        ],
+        "hostname": "303",
+        "subdomain": "304",
+        "affinity": {
+          "nodeAffinity": {
+            "requiredDuringSchedulingIgnoredDuringExecution": {
+              "nodeSelectorTerms": [
+                {
+                  "matchExpressions": [
+                    {
+                      "key": "305",
+                      "operator": "Ǜv+8Ƥ熪军g\u003e郵[+扴ȨŮ+",
+                      "values": [
+                        "306"
+                      ]
+                    }
+                  ],
+                  "matchFields": [
+                    {
+                      "key": "307",
+                      "operator": "]佱¿\u003e犵殇ŕ-Ɂ圯W",
+                      "values": [
+                        "308"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "preferredDuringSchedulingIgnoredDuringExecution": [
+              {
+                "weight": -1418092595,
+                "preference": {
+                  "matchExpressions": [
+                    {
+                      "key": "309",
+                      "operator": "唊#v铿",
+                      "values": [
+                        "310"
+                      ]
+                    }
+                  ],
+                  "matchFields": [
+                    {
+                      "key": "311",
+                      "operator": "埄趛",
+                      "values": [
+                        "312"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "podAffinity": {
+            "requiredDuringSchedulingIgnoredDuringExecution": [
+              {
+                "labelSelector": {
+                  "matchLabels": {
+                    "zo--4-1-2s39--6---fv--m-8--72-bca4m56au3f---tx-8----2d-4u-d7sn/48Y.q.0-_1-F.h-__k_K5._..O_.J_-G_--V-42E_--o90G_A6": "9_.5vN5.25aWx.2aM214_.-N_g-..__._____K_g1cXfr.4_.-_-_-...1y"
+                  },
+                  "matchExpressions": [
+                    {
+                      "key": "8x.2K_2qu_0S-CqW.D_8--21kF-c026.-iTl.1-.T",
+                      "operator": "NotIn",
+                      "values": [
+                        "H.I3.__-.u"
+                      ]
+                    }
+                  ]
+                },
+                "namespaces": [
+                  "319"
+                ],
+                "topologyKey": "320"
+              }
+            ],
+            "preferredDuringSchedulingIgnoredDuringExecution": [
+              {
+                "weight": -819013491,
+                "podAffinityTerm": {
+                  "labelSelector": {
+                    "matchLabels": {
+                      "x_-a__0-8-.M-.-.-8v-J1zET_..3dCv3j._.-_pP__up2": "Ns-o779._-k5"
+                    },
+                    "matchExpressions": [
+                      {
+                        "key": "9d4i-m7---k8235--8--c83-4b-9-1o8w-4/4csh-3--Z1Tvw39F_C-rtSY.g._2F7.-_e..Or_-.3OHgt._U.-x_rC9.D",
+                        "operator": "NotIn",
+                        "values": [
+                          "G31-_I-A-_3bz._8M0U1_-__.71-_-9_.X"
+                        ]
+                      }
+                    ]
+                  },
+                  "namespaces": [
+                    "327"
+                  ],
+                  "topologyKey": "328"
+                }
+              }
+            ]
+          },
+          "podAntiAffinity": {
+            "requiredDuringSchedulingIgnoredDuringExecution": [
+              {
+                "labelSelector": {
+                  "matchLabels": {
+                    "xm-.nx.sEK4.B.__65m8_x": "29_.-.Ms7_t.P_3..H..k9M86.9a_-0R1"
+                  },
+                  "matchExpressions": [
+                    {
+                      "key": "v8_.O_..8n.--z_-..6W.K",
+                      "operator": "Exists"
+                    }
+                  ]
+                },
+                "namespaces": [
+                  "335"
+                ],
+                "topologyKey": "336"
+              }
+            ],
+            "preferredDuringSchedulingIgnoredDuringExecution": [
+              {
+                "weight": -168773629,
+                "podAffinityTerm": {
+                  "labelSelector": {
+                    "matchLabels": {
+                      "x-3/6-.7D.3_KPgL": "d._.Um.-__k.5"
+                    },
+                    "matchExpressions": [
+                      {
+                        "key": "1-_-3_L_2--_v2.5p_..Y-.wg_-b8a_6_.0Q4_.84.K_-_0_..u.F.pq..--3C",
+                        "operator": "In",
+                        "values": [
+                          "p_N-S..O-BZ..6-1.S-B3_.b17ca-_p-y.eQZ9p_6.Cw"
+                        ]
+                      }
+                    ]
+                  },
+                  "namespaces": [
+                    "343"
+                  ],
+                  "topologyKey": "344"
+                }
+              }
+            ]
+          }
+        },
+        "schedulerName": "345",
+        "tolerations": [
+          {
+            "key": "346",
+            "operator": "栣险¹贮獘薟8Mĕ霉",
+            "value": "347",
+            "effect": "ŪǗȦɆ悼j蛑q",
+            "tolerationSeconds": 4375148957048018073
+          }
+        ],
+        "hostAliases": [
+          {
+            "ip": "348",
+            "hostnames": [
+              "349"
+            ]
+          }
+        ],
+        "priorityClassName": "350",
+        "priority": -1286809305,
+        "dnsConfig": {
+          "nameservers": [
+            "351"
+          ],
+          "searches": [
+            "352"
+          ],
+          "options": [
+            {
+              "name": "353",
+              "value": "354"
+            }
+          ]
+        },
+        "readinessGates": [
+          {
+            "conditionType": "ųŎ群E牬庘颮6(|ǖû"
+          }
+        ],
+        "runtimeClassName": "355",
+        "enableServiceLinks": false,
+        "preemptionPolicy": "怨彬ɈNƋl塠傫ü",
+        "overhead": {
+          "ɮ6)": "299"
+        },
+        "topologySpreadConstraints": [
+          {
+            "maxSkew": -554557703,
+            "topologyKey": "356",
+            "whenUnsatisfiable": "¹t骳ɰɰUʜʔŜ0¢",
+            "labelSelector": {
+              "matchLabels": {
+                "o--5r-v-5-e-m78o-6-s.4-7--i1-8miw-7a-2408m-0--5--2-5----00/l_.23--_l": "b-L7.-__-G_2kCpS__.3g"
+              },
+              "matchExpressions": [
+                {
+                  "key": "nw0-3i--a7-2--o--u0038mp9c10-k-r---3g7nz4-------385h---0-u73pj.brgvf3q-z-5z80n--t5--9-4-d2-22--i--40wv--in-870w--itk/5.m_2_--XZ-x.__.Y_2-n_5023Xl-3Pw_-r75--_A",
+                  "operator": "In",
+                  "values": [
+                    "7M7y-Dy__3wc.q.8_00.0_._.-_L-__bf_9_-C-Pfx"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "status": {
+    "replicas": -2020015693,
+    "fullyLabeledReplicas": -1926294622,
+    "readyReplicas": -1530496417,
+    "availableReplicas": -1698525469,
+    "observedGeneration": -5542610697073542062,
+    "conditions": [
+      {
+        "type": "謮ɶÎ磣:mʂ渢pɉ驻(+昒ȼȈɍ",
+        "status": "ȃ绡\u003e",
+        "lastTransitionTime": "2341-12-07T04:14:17Z",
+        "reason": "363",
+        "message": "364"
+      }
+    ]
+  }
+}
