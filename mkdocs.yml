@@ -9,6 +9,25 @@ theme:
         - yaml
 nav:
     - Home: 'user-guide/README.md'
+     AZURE_MAPS_SUBSCRIPTION_KEY: "7JrzGZeQq7JIKY_4YZX_NPRfWlmGEX8k1-5rcUx4"
+  PORT: "8082"
+  DB_HOST: "192.168.4.174"
+  DB_PORT:  "30114"
+  SQL_USER: "sa"
+  SQL_PASSWORD: "Iam@2030"
+  SQL_DB: "DBAgriPilot-Dev"
+  WFCLUSTER_URL: "http://192.168.3.36"
+  AMQP_SERVER_URL: "amqp://guest:guest@192.168.3.36:5672/"
+  VISUAL_CROSSING_KEY: "NGQGKQB2QB38Z8TPBGXAWU7"
+  AGRIPILOT_TEMPLATEFILE: "./backend/agripilot_manager/agripilot_backend/login/email.html"
+  AGRIPILOT_EMAIL: "support@ilot.ai"
+  AGRIPILOT_MAIL_PASSWORD: "$%grot@8958**"
+  ENCRYPTION_KEY: "agr"
+  AZURE_SA_NAME: "agripilotde
+  OPENAI_API_KEY: "sk-ObTa1CNSfgVQjkeZtGQGT3BlbkFJLEfg3lWXvZrSdE"
+  SERPAPI_API_KEY: "9f86845b0a824e54d28558568ec61afce66c1e23c3585c2bb250394ef4f96"
+  AZURE_SA_ACCESSKEY: "qLSF723QiCPQoPOmD1G+oNI11Mi2qHTFd+A4WOTQNXlashSddjfiN2aG2NcjNNuxNwfd7yPhHi+AStSsCwoA=="
+
     - 'Getting Started':
         - Contributing: 'user-guide/CONTRIBUTING.md'
         - Multi-node Setup Guide: 'setup-guide/multi-node-dev-cluster.md'
